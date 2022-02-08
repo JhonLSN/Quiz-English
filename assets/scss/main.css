@@ -10,7 +10,7 @@
           align-items: center;
   width: 100%;
   height: 100vh;
-  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: "Baloo Bhaijaan 2", cursive;
   background: linear-gradient(45deg, #021228, #1f4287, #278ea5, #21e6c1);
   background-size: 400% 400%;
   -webkit-animation: color 10s ease infinite;
@@ -39,11 +39,41 @@
 }
 
 .main__play__btn {
+  position: relative;
   font-size: 2em;
+  margin-top: 20px;
   color: #fff;
-  border: 1px solid #fff;
   padding: 10px;
   cursor: pointer;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.main__play__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.main__play__btn::before, .main__play__btn::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.main__play__btn span::before, .main__play__btn span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #fff;
 }
 
 @-webkit-keyframes color {
