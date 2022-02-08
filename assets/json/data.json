@@ -1,0 +1,34 @@
+{
+  "questoes": [
+    {
+      "questao": 0,
+      "pergunta": "Quantos é 1 + 1?",
+      "alternativaA": 2,
+      "alternativaB": 5,
+      "alternativaC": 12,
+      "alternativaD": 50,
+      "alternativaE": 20,
+      "resposta": 2
+    },
+    {
+      "questao": 1,
+      "pergunta": "Qual o sinonimo de casa?",
+      "alternativaA": "Aeroporto",
+      "alternativaB": "Residência",
+      "alternativaC": "Mansão",
+      "alternativaD": "Banheiro",
+      "alternativaE": "Cômodo",
+      "resposta": "Residência"
+    },
+    {
+      "questao": 2,
+      "pergunta": "Qual a fruta que Adão e Eva comeu?",
+      "alternativaA": "Uva",
+      "alternativaB": "Melão",
+      "alternativaC": "Banana",
+      "alternativaD": "Manga",
+      "alternativaE": "Maça",
+      "resposta": "Maçã"
+    }
+  ]
+}
