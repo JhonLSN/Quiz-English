@@ -56,6 +56,22 @@
   transition: all ease 0.3s;
 }
 
+.main__play__btn:hover::before {
+  width: 100%;
+}
+
+.main__play__btn:hover::after {
+  width: 100%;
+}
+
+.main__play__btn:hover span::before {
+  height: 100%;
+}
+
+.main__play__btn:hover span::after {
+  height: 100%;
+}
+
 .main__play__btn::before, .main__play__btn::after {
   content: "";
   width: 0;

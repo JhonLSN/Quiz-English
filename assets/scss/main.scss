@@ -35,7 +35,19 @@
         transition: all ease 0.3s;
 
         &::before {
+          width: 100%;
+        }
 
+        &::after {
+          width: 100%;
+        }
+
+        span::before {
+          height: 100%;
+        }
+
+        span::after {
+          height: 100%;
         }
       }
 
