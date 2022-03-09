@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  background: url("/assets/img/bg-curvy-desktop.png") bottom no-repeat;
+  background-size: 100% 500px;
+  background-color: #106e69;
+  animation: color 10s ease infinite;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1em 2em;
+
+    &-score{
+      display: flex;
+      margin-right: 20px;
+
+      & i {
+        font-size: 1.2em;
+        color: white;
+        margin-right: 5px;
+      }
+
+      & p {
+        font-size: 1.5em;
+        color: white;
+        margin-right: 10px;
+      }
+
+      &--change-score {
+        margin-right: 0px;
+      }
+    }
+
+    &-time {
+      display: flex;
+
+      & i {
+        font-size: 1.2em;
+        color: white;
+        margin-right: 5px;
+      }
+
+      & p {
+        font-size: 1.5em;
+        color: white;
+        margin-right: 10px;
+      }
+
+      &--change-time {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  & .questions {
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 15em;
+    border-radius: 10px;
+
+    & .statement {
+      font-size: 2em;
+      background: #002422;
+      color: white;
+      padding: 15px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    & .answers {
+      &-confirm {
+        font-size: 2em;
+        background: #9bfffa;
+        color: #0d4666;
+        padding: 15px;
+        cursor: pointer;
+        transition: all ease .3s;
+
+        &:hover {
+          background-color: #75c9c5;
+          transition: all ease .3s;
+        }
+      }
+    }
+
+    & .answers-confirm:nth-child(5) {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
