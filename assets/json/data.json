@@ -37,7 +37,7 @@
       "alternativaB": "Dizer",
       "alternativaC": "Acontecer",
       "alternativaD": "Coisas",
-      "alternativaE": "Amar",
+      "alternativaE": "AmarII",
       "resposta": "Sentir"
     },
     {
@@ -47,7 +47,7 @@
       "alternativaB": "Residência",
       "alternativaC": "Mansão",
       "alternativaD": "Banheiro",
-      "alternativaE": "Cômodo",
+      "alternativaE": "CômodoII",
       "resposta": "Residência"
     },
     {
@@ -57,7 +57,7 @@
       "alternativaB": "Dizer",
       "alternativaC": "Acontecer",
       "alternativaD": "Coisas",
-      "alternativaE": "Amar",
+      "alternativaE": "AmarIII",
       "resposta": "Sentir"
     },
     {
@@ -67,7 +67,7 @@
       "alternativaB": "Residência",
       "alternativaC": "Mansão",
       "alternativaD": "Banheiro",
-      "alternativaE": "Cômodo",
+      "alternativaE": "CômodoIII",
       "resposta": "Residência"
     },
     {
@@ -87,7 +87,7 @@
       "alternativaB": "Residência",
       "alternativaC": "Mansão",
       "alternativaD": "Banheiro",
-      "alternativaE": "Cômodo",
+      "alternativaE": "CômodoIV",
       "resposta": "Residência"
     },
     {
@@ -97,7 +97,7 @@
       "alternativaB": "Dizer",
       "alternativaC": "Acontecer",
       "alternativaD": "Coisas",
-      "alternativaE": "Amar",
+      "alternativaE": "AmarIV",
       "resposta": "Sentir"
     },
     {
@@ -107,7 +107,7 @@
       "alternativaB": "Residência",
       "alternativaC": "Mansão",
       "alternativaD": "Banheiro",
-      "alternativaE": "Cômodo",
+      "alternativaE": "CômodoV",
       "resposta": "Residência"
     }
   ]

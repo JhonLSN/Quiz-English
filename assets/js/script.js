@@ -1,4 +1,11 @@
-//Generate random numbers
+// Array index
+let indexArray = 1;
+
+// Score Variable
+let score = 0
+let scoreTotal = document.querySelector('.--change-score')
+
+// Generate random numbers
 const maxNumbers = 11;
 let list = [];
 for (let i = 0; i < maxNumbers; i++) {
@@ -16,7 +23,6 @@ for (let i = list.length; i;) {
   list[i] = tmp;
 }
 
-
 // Consuming the Question API
 const question = document.querySelector('.questions')
 
@@ -29,17 +35,8 @@ fetch('../assets/json/data.json')
     })
 
     //Disabling all questions
-    document.querySelector(`.question-${list[0]}`).style.display = 'block'
-    document.querySelector(`.question-${list[1]}`).style.display = 'none'
-    document.querySelector(`.question-${list[2]}`).style.display = 'none'
-    document.querySelector(`.question-${list[3]}`).style.display = 'none'
-    document.querySelector(`.question-${list[4]}`).style.display = 'none'
-    document.querySelector(`.question-${list[5]}`).style.display = 'none'
-    document.querySelector(`.question-${list[6]}`).style.display = 'none'
-    document.querySelector(`.question-${list[7]}`).style.display = 'none'
-    document.querySelector(`.question-${list[8]}`).style.display = 'none'
-    document.querySelector(`.question-${list[9]}`).style.display = 'none'
-    document.querySelector(`.question-${list[10]}`).style.display = 'none'
+    EnableFirstQuestions()
+
 
     function showQuestions(questionNumber, statementValue, a, b, c, d, e, answerValue) {
 
@@ -86,10 +83,15 @@ fetch('../assets/json/data.json')
 
       alternativaA.addEventListener('click', () => {
         if (a === answerValue) {
-          alternativaA.style.background = '#90dd87'
+          Score()
           DisablingQuestions()
-          document.querySelector(`.question-${list[0 + 1]}`).style.display = 'block'
+          document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
+          console.log(list[indexArray])
+          indexArray++
 
+          if (indexArray == list.length) {
+            indexArray = 0
+          }
         } else {
           alternativaA.style.background = '#dd8787'
         }
@@ -97,9 +99,15 @@ fetch('../assets/json/data.json')
 
       alternativaB.addEventListener('click', () => {
         if (b === answerValue) {
-          alternativaB.style.background = '#90dd87'
+          Score()
           DisablingQuestions()
-          document.querySelector(`.question-${list[0 + 1]}`).style.display = 'block'
+          document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
+          console.log(list[indexArray])
+          indexArray++
+
+          if (indexArray == list.length) {
+            indexArray = 0
+          }
         } else {
           alternativaB.style.background = '#dd8787'
         }
@@ -107,9 +115,15 @@ fetch('../assets/json/data.json')
 
       alternativaC.addEventListener('click', () => {
         if (c === answerValue) {
-          alternativaC.style.background = '#90dd87'
+          Score()
           DisablingQuestions()
-          document.querySelector(`.question-${list[0 + 1]}`).style.display = 'block'
+          document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
+          console.log(list[indexArray])
+          indexArray++
+
+          if (indexArray == list.length) {
+            indexArray = 0
+          }
         } else {
           alternativaC.style.background = '#dd8787'
         }
@@ -117,9 +131,15 @@ fetch('../assets/json/data.json')
 
       alternativaD.addEventListener('click', () => {
         if (d === answerValue) {
-          alternativaD.style.background = '#90dd87'
+          Score()
           DisablingQuestions()
-          document.querySelector(`.question-${list[0 + 1]}`).style.display = 'block'
+          document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
+          console.log(list[indexArray])
+          indexArray++
+
+          if (indexArray == list.length) {
+            indexArray = 0
+          }
         } else {
           alternativaD.style.background = '#dd8787'
         }
@@ -127,18 +147,20 @@ fetch('../assets/json/data.json')
 
       alternativaE.addEventListener('click', () => {
         if (e === answerValue) {
-          alternativaE.style.background = '#90dd87'
+          Score()
           DisablingQuestions()
-          document.querySelector(`.question-${list[0 + 1]}`).style.display = 'block'
+          document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
+          console.log(list[indexArray])
+          indexArray++
+
+          if (indexArray == list.length) {
+            indexArray = 0
+          }
         } else {
           alternativaE.style.background = '#dd8787'
         }
       });
     }
-
-
-
-
   })
 
 function DisablingQuestions() {
@@ -155,9 +177,21 @@ function DisablingQuestions() {
   document.querySelector(`.question-${list[10]}`).style.display = 'none'
 }
 
-function proximoItem() {
-  indiceArray++;
-  if (indiceArray == dadosArray.length) {
-    indiceArray = 0;
-  }
+function EnableFirstQuestions() {
+  document.querySelector(`.question-${list[0]}`).style.display = 'block'
+  document.querySelector(`.question-${list[1]}`).style.display = 'none'
+  document.querySelector(`.question-${list[2]}`).style.display = 'none'
+  document.querySelector(`.question-${list[3]}`).style.display = 'none'
+  document.querySelector(`.question-${list[4]}`).style.display = 'none'
+  document.querySelector(`.question-${list[5]}`).style.display = 'none'
+  document.querySelector(`.question-${list[6]}`).style.display = 'none'
+  document.querySelector(`.question-${list[7]}`).style.display = 'none'
+  document.querySelector(`.question-${list[8]}`).style.display = 'none'
+  document.querySelector(`.question-${list[9]}`).style.display = 'none'
+  document.querySelector(`.question-${list[10]}`).style.display = 'none'
+}
+
+function Score() {
+  score += Math.floor(Math.random() * 10 + 1)
+  scoreTotal.innerHTML = score
 }

@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <h1 class="btn">teste</h1>
+  <h1 class="btnI">testeI</h1>
 
   <script>
     let btn = document.querySelector('.btn')
+    let btnI = document.querySelector('.btnI')
     let dadosArray = [3, 17, 1, 4, 5, 9, 10];
-    let indiceArray = 0;
-
+    let indexArray = 0;
+    
     btn.addEventListener('click', () => {
       console.log(dadosArray[indiceArray])
+      console.log(indiceArray)
       indiceArray++
+
+      if (indiceArray == dadosArray.length) {
+        indiceArray = 0
+      }
+    });    
+
+    btnI.addEventListener('click', () => {
+      console.log(dadosArray[indiceArray])
+      indiceArray++
+
+      if (indiceArray == dadosArray.length) {
+        indiceArray = 0
+      }
     });
+
 
 
   </script>
 </body>
+
 </html>
