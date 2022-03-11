@@ -1,9 +1,13 @@
+// Box game Over 
+let boxGameOver = document.querySelector('.game-over')
+
 // Array index
 let indexArray = 1;
 
 // Score Variable
 let score = 0
 let scoreTotal = document.querySelector('.--change-score')
+let scoreGameOver = document.querySelector('.final-score')
 
 // Time Variable 
 let time = 10
@@ -89,7 +93,7 @@ fetch('../assets/json/data.json')
       alternativaA.addEventListener('click', () => {
         if (a === answerValue) {
           Score()
-
+          time = time+10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -100,12 +104,15 @@ fetch('../assets/json/data.json')
           }
         } else {
           alternativaA.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible'
+          boxGameOver.style.transform = 'scale(1)'
         }
       });
 
       alternativaB.addEventListener('click', () => {
         if (b === answerValue) {
           Score()
+          time = time+10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -115,13 +122,16 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaB.style.background = '#dd8787'
+          alternativaA.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible'
+          boxGameOver.style.transform = 'scale(1)'
         }
       });
 
       alternativaC.addEventListener('click', () => {
         if (c === answerValue) {
           Score()
+          time = time+10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -131,13 +141,16 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaC.style.background = '#dd8787'
+          alternativaA.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible'
+          boxGameOver.style.transform = 'scale(1)'
         }
       });
 
       alternativaD.addEventListener('click', () => {
         if (d === answerValue) {
           Score()
+          time = time+10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -147,13 +160,16 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaD.style.background = '#dd8787'
+          alternativaA.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible'
+          boxGameOver.style.transform = 'scale(1)'
         }
       });
 
       alternativaE.addEventListener('click', () => {
         if (e === answerValue) {
           Score()
+          time = time+10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -163,12 +179,16 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaE.style.background = '#dd8787'
+          alternativaA.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible'
+          boxGameOver.style.transform = 'scale(1)'
         }
       });
+
     }
   })
-
+  
+  
 function DisablingQuestions() {
   document.querySelector(`.question-${list[0]}`).style.display = 'none'
   document.querySelector(`.question-${list[1]}`).style.display = 'none'
@@ -200,6 +220,7 @@ function EnableFirstQuestions() {
 function Score() {
   score += Math.floor(Math.random() * 10 + 1)
   scoreTotal.innerHTML = score
+  scoreGameOver.innerHTML = `Score: ${score}`;
 }
 
 function TimeCount() {
