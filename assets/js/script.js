@@ -5,6 +5,11 @@ let indexArray = 1;
 let score = 0
 let scoreTotal = document.querySelector('.--change-score')
 
+// Time Variable 
+let time = 10
+let timeTotal = document.querySelector('.--change-time')
+TimeCount()
+
 // Generate random numbers
 const maxNumbers = 11;
 let list = [];
@@ -84,6 +89,7 @@ fetch('../assets/json/data.json')
       alternativaA.addEventListener('click', () => {
         if (a === answerValue) {
           Score()
+
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -195,3 +201,15 @@ function Score() {
   score += Math.floor(Math.random() * 10 + 1)
   scoreTotal.innerHTML = score
 }
+
+function TimeCount() {
+  window.setInterval(function () {
+    timeTotal.innerHTML = time;
+    time--;
+    if (time < 0) {
+      time = 0
+    }
+  }, 1000);
+}
+
+

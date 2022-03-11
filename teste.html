@@ -9,35 +9,28 @@
 </head>
 
 <body>
-  <h1 class="btn">teste</h1>
-  <h1 class="btnI">testeI</h1>
+
+  <div id="number"></div>
+  <div class="btn">Button</div>
 
   <script>
     let btn = document.querySelector('.btn')
-    let btnI = document.querySelector('.btnI')
-    let dadosArray = [3, 17, 1, 4, 5, 9, 10];
-    let indexArray = 0;
-    
+
+    var n = 10;
+    var l = document.getElementById("number");
+    window.setInterval(function () {
+      l.innerHTML = n;
+      n--;
+      if (n < 0) {
+        n = 0
+      } 
+    }, 1000);
+
+
     btn.addEventListener('click', () => {
-      console.log(dadosArray[indiceArray])
-      console.log(indiceArray)
-      indiceArray++
-
-      if (indiceArray == dadosArray.length) {
-        indiceArray = 0
-      }
-    });    
-
-    btnI.addEventListener('click', () => {
-      console.log(dadosArray[indiceArray])
-      indiceArray++
-
-      if (indiceArray == dadosArray.length) {
-        indiceArray = 0
-      }
+      n = n + n
+      console.log(n)
     });
-
-
 
   </script>
 </body>

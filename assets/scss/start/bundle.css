@@ -9,6 +9,113 @@
           animation: color 10s ease infinite;
 }
 
+.container .game-over {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #000000a8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .game-over-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container .game-over-box i {
+  font-size: 3em;
+  color: #a32222;
+  margin-bottom: 5px;
+}
+
+.container .game-over-box .title {
+  font-size: 2em;
+  color: #a32222;
+  margin-bottom: 20px;
+}
+
+.container .game-over-box .final-score {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #a32222;
+}
+
+.container .game-over-box .restart {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border: 1px solid #a32222;
+  color: #a32222;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.container .game-over-box .restart:hover {
+  background: #a32222;
+  color: white;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.container .game-over-box .links {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  border: 1px solid #a32222;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #a32222;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.container .game-over-box .links:hover {
+  background: white;
+  color: #a32222;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.container .game-over-box .links:hover i {
+  color: #a32222;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.container .game-over-box .links i {
+  font-size: 1em;
+  color: white;
+  margin-bottom: 0px;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
 .container__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,14 +196,14 @@
   color: #0d4666;
   padding: 15px;
   cursor: pointer;
-  -webkit-transition: all ease .3s;
-  transition: all ease .3s;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 
 .container .questions .answers-confirm:hover {
   background-color: #75c9c5;
-  -webkit-transition: all ease .3s;
-  transition: all ease .3s;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 
 .container .questions .answers-confirm:nth-child(5) {

@@ -7,13 +7,99 @@
   background-color: #106e69;
   animation: color 10s ease infinite;
 
+  & .game-over {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #000000a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-box {
+      display: flex;
+      width: 30%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+
+      & i {
+        font-size: 3em;
+        color: #a32222;
+        margin-bottom: 5px;
+      }
+
+      & .title {
+        font-size: 2em;
+        color: #a32222;
+        margin-bottom: 20px;
+      }
+
+      & .final-score {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: #a32222;
+      }
+
+      & .restart {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        border: 1px solid #a32222;
+        color: #a32222;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease 0.6s;
+
+        &:hover {
+          background: #a32222;
+          color: white;
+          transition: all ease 0.6s;
+        }
+      }
+
+      & .links {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+        border: 1px solid #a32222;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: #a32222;
+        transition: all ease 0.6s;
+
+        &:hover {
+          background: white;
+          color: #a32222;
+          transition: all ease 0.6s;
+
+          i {
+            color: #a32222;
+            transition: all ease 0.6s;
+          }
+        }
+
+        & i {
+          font-size: 1em;
+          color: white;
+          margin-bottom: 0px;
+          transition: all ease 0.6s;
+        }
+      }
+    }
+  }
+
   &__header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 1em 2em;
 
-    &-score{
+    &-score {
       display: flex;
       margin-right: 20px;
 
@@ -77,11 +163,11 @@
         color: #0d4666;
         padding: 15px;
         cursor: pointer;
-        transition: all ease .3s;
+        transition: all ease 0.3s;
 
         &:hover {
           background-color: #75c9c5;
-          transition: all ease .3s;
+          transition: all ease 0.3s;
         }
       }
     }
