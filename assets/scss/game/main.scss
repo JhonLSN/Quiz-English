@@ -1,0 +1,207 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  background: url("/assets/img/bg-curvy-desktop.png") bottom no-repeat;
+  background-size: 100% 500px;
+  background-color: #106e69;
+  animation: color 10s ease infinite;
+
+  & .game-over {
+    visibility: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #000000a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all ease 0.6s;
+
+    &-box {
+      display: flex;
+      width: 30%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 0px 15px 1px #322f2f;
+
+      & i {
+        font-size: 3em;
+        color: #a32222;
+        margin-bottom: 5px;
+      }
+
+      & .title {
+        font-size: 2em;
+        color: #a32222;
+        margin-bottom: 20px;
+      }
+
+      & .final-score {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: #a32222;
+      }
+
+      & .restart {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        border: 1px solid #a32222;
+        color: #a32222;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease 0.6s;
+
+        &:hover {
+          background: #a32222;
+          color: white;
+          transition: all ease 0.6s;
+        }
+      }
+
+      & .links {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+        border: 1px solid #a32222;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: #a32222;
+        transition: all ease 0.6s;
+
+        &:hover {
+          background: white;
+          color: #a32222;
+          transition: all ease 0.6s;
+
+          i {
+            color: #a32222;
+            transition: all ease 0.6s;
+          }
+        }
+
+        & i {
+          font-size: 1em;
+          color: white;
+          margin-bottom: 0px;
+          transition: all ease 0.6s;
+        }
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1em 2em;
+
+    &-score {
+      display: flex;
+      margin-right: 20px;
+
+      & i {
+        font-size: 1.2em;
+        color: white;
+        margin-right: 5px;
+      }
+
+      & p {
+        font-size: 1.5em;
+        color: white;
+        margin-right: 10px;
+      }
+
+      &--change-score {
+        margin-right: 0px;
+      }
+    }
+
+    &-time {
+      display: flex;
+
+      & i {
+        font-size: 1.2em;
+        color: white;
+        margin-right: 5px;
+      }
+
+      & p {
+        font-size: 1.5em;
+        color: white;
+        margin-right: 10px;
+      }
+
+      &--change-time {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  & .questions {
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 15em;
+    border-radius: 10px;
+
+    & .statement {
+      font-size: 2em;
+      background: #002422;
+      color: white;
+      padding: 15px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    & .answers {
+      &-confirm {
+        font-size: 2em;
+        background: #9bfffa;
+        color: #0d4666;
+        padding: 15px;
+        cursor: pointer;
+        transition: all ease 0.3s;
+
+        &:hover {
+          background-color: #75c9c5;
+          transition: all ease 0.3s;
+        }
+      }
+    }
+
+    & .answers-confirm:nth-child(5) {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    background-size: 400% 500px;
+
+    & .game-over {
+      &-box {
+        width: 95%;
+      }
+    }
+
+    &__header {
+      justify-content: center;
+    }
+
+    & .questions {
+      margin: 0;
+      width: 100%;
+      padding: 5px;
+      margin-top: 13em;
+    }
+  }
+}
