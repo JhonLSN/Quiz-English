@@ -1,6 +1,13 @@
 // Box game Over 
 let boxGameOver = document.querySelector('.game-over')
 
+// Restart game 
+let restart = document.querySelector('.restart')
+
+restart.addEventListener('click', () => {
+  location.reload();
+})
+
 // Array index
 let indexArray = 1;
 
@@ -26,9 +33,7 @@ let tmp;
 for (let i = list.length; i;) {
   randomNumber = Math.random() * i-- | 0;
   tmp = list[randomNumber];
-  // troca o número aleatório pelo atual
   list[randomNumber] = list[i];
-  // troca o atual pelo aleatório
   list[i] = tmp;
 }
 
@@ -106,6 +111,7 @@ fetch('../assets/json/data.json')
           alternativaA.style.background = '#dd8787'
           boxGameOver.style.visibility = 'visible'
           boxGameOver.style.transform = 'scale(1)'
+          time = 0
         }
       });
 
@@ -122,9 +128,10 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaA.style.background = '#dd8787'
+          alternativaB.style.background = '#dd8787'
           boxGameOver.style.visibility = 'visible'
           boxGameOver.style.transform = 'scale(1)'
+          time = 0
         }
       });
 
@@ -141,9 +148,10 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaA.style.background = '#dd8787'
+          alternativaC.style.background = '#dd8787'
           boxGameOver.style.visibility = 'visible'
           boxGameOver.style.transform = 'scale(1)'
+          time = 0
         }
       });
 
@@ -160,9 +168,10 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaA.style.background = '#dd8787'
-          boxGameOver.style.visibility = 'visible'
+          alternativaD.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible' 
           boxGameOver.style.transform = 'scale(1)'
+          time = 0
         }
       });
 
@@ -179,9 +188,10 @@ fetch('../assets/json/data.json')
             indexArray = 0
           }
         } else {
-          alternativaA.style.background = '#dd8787'
-          boxGameOver.style.visibility = 'visible'
+          alternativaE.style.background = '#dd8787'
+          boxGameOver.style.visibility = 'visible' 
           boxGameOver.style.transform = 'scale(1)'
+          time = 0
         }
       });
 
@@ -229,6 +239,8 @@ function TimeCount() {
     time--;
     if (time < 0) {
       time = 0
+      boxGameOver.style.visibility = 'visible' 
+      boxGameOver.style.transform = 'scale(1)'
     }
   }, 1000);
 }
