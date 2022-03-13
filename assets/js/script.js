@@ -98,7 +98,7 @@ fetch('../assets/json/data.json')
       alternativaA.addEventListener('click', () => {
         if (a === answerValue) {
           Score()
-          time = time+10
+          time = 10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -118,7 +118,7 @@ fetch('../assets/json/data.json')
       alternativaB.addEventListener('click', () => {
         if (b === answerValue) {
           Score()
-          time = time+10
+          time = 10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -138,7 +138,7 @@ fetch('../assets/json/data.json')
       alternativaC.addEventListener('click', () => {
         if (c === answerValue) {
           Score()
-          time = time+10
+          time = 10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -158,7 +158,7 @@ fetch('../assets/json/data.json')
       alternativaD.addEventListener('click', () => {
         if (d === answerValue) {
           Score()
-          time = time+10
+          time = 10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])
@@ -178,7 +178,7 @@ fetch('../assets/json/data.json')
       alternativaE.addEventListener('click', () => {
         if (e === answerValue) {
           Score()
-          time = time+10
+          time = 10
           DisablingQuestions()
           document.querySelector(`.question-${list[indexArray]}`).style.display = 'block'
           console.log(list[indexArray])

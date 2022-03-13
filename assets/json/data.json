@@ -2,113 +2,113 @@
   "questoes": [
     {
       "questao": 1,
-      "pergunta": "Qual é a tradução de Fell?",
+      "pergunta": "Em inglês, o que significa Feel?",
       "alternativaA": "Sentir",
       "alternativaB": "Dizer",
-      "alternativaC": "Acontecer",
-      "alternativaD": "Coisas",
-      "alternativaE": "Amar",
+      "alternativaC": "Cair",
+      "alternativaD": "Servir",
+      "alternativaE": "Saber",
       "resposta": "Sentir"
     },
     {
       "questao": 2,
-      "pergunta": "Qual o sinonimo de casa?",
-      "alternativaA": "Aeroporto",
-      "alternativaB": "Residência",
-      "alternativaC": "Mansão",
-      "alternativaD": "Banheiro",
-      "alternativaE": "Cômodo",
-      "resposta": "Residência"
+      "pergunta": "Em inglês, o que significa Say?",
+      "alternativaA": "Saída",
+      "alternativaB": "Dizer",
+      "alternativaC": "Contramão",
+      "alternativaD": "Palavra",
+      "alternativaE": "Serviço",
+      "resposta": "Dizer"
     },
     {
       "questao": 3,
-      "pergunta": "Qual a fruta que Adão e Eva comeu?",
-      "alternativaA": "Uva",
-      "alternativaB": "Melão",
-      "alternativaC": "Banana",
-      "alternativaD": "Manga",
-      "alternativaE": "Maçã",
-      "resposta": "Maçã"
+      "pergunta": "Em inglês, o que significa Things?",
+      "alternativaA": "Coisas",
+      "alternativaB": "Algumas",
+      "alternativaC": "Confortável",
+      "alternativaD": "Vocês",
+      "alternativaE": "Mais",
+      "resposta": "Coisas"
     },
     {
       "questao": 4,
-      "pergunta": "Qual é a tradução de Fell?",
-      "alternativaA": "Sentir",
-      "alternativaB": "Dizer",
+      "pergunta": "Em inglês, o que significa Happen?",
+      "alternativaA": "Alguém",
+      "alternativaB": "Contradizer",
       "alternativaC": "Acontecer",
-      "alternativaD": "Coisas",
-      "alternativaE": "AmarII",
-      "resposta": "Sentir"
+      "alternativaD": "Negar",
+      "alternativaE": "Merecer",
+      "resposta": "Acontecer"
     },
     {
       "questao": 5,
-      "pergunta": "Qual o sinonimo de casa?",
-      "alternativaA": "Aeroporto",
-      "alternativaB": "Residência",
-      "alternativaC": "Mansão",
-      "alternativaD": "Banheiro",
-      "alternativaE": "CômodoII",
-      "resposta": "Residência"
+      "pergunta": "Em inglês, o que significa Anithing?",
+      "alternativaA": "Tudo",
+      "alternativaB": "Quantidade",
+      "alternativaC": "Maiores",
+      "alternativaD": "Nada",
+      "alternativaE": "Brincos",
+      "resposta": "Nada"
     },
     {
       "questao": 6,
-      "pergunta": "Qual é a tradução de Fell?",
-      "alternativaA": "Sentir",
-      "alternativaB": "Dizer",
-      "alternativaC": "Acontecer",
-      "alternativaD": "Coisas",
-      "alternativaE": "AmarIII",
-      "resposta": "Sentir"
+      "pergunta": "Em inglês, o que significa Believe?",
+      "alternativaA": "Bomba",
+      "alternativaB": "Estourar",
+      "alternativaC": "Morte",
+      "alternativaD": "Todos",
+      "alternativaE": "Acreditar",
+      "resposta": "Acreditar"
     },
     {
       "questao": 7,
-      "pergunta": "Qual o sinonimo de casa?",
+      "pergunta": "Em inglês, o que significa Everything?",
       "alternativaA": "Aeroporto",
-      "alternativaB": "Residência",
-      "alternativaC": "Mansão",
+      "alternativaB": "Tudo",
+      "alternativaC": "Nada",
       "alternativaD": "Banheiro",
-      "alternativaE": "CômodoIII",
-      "resposta": "Residência"
+      "alternativaE": "Cômodo",
+      "resposta": "Tudo"
     },
     {
       "questao": 8,
-      "pergunta": "Qual é a tradução de Fell?",
-      "alternativaA": "Sentir",
-      "alternativaB": "Dizer",
-      "alternativaC": "Acontecer",
-      "alternativaD": "Coisas",
+      "pergunta": "Em inglês, o que significa Blending?",
+      "alternativaA": "Mistura",
+      "alternativaB": "Tempo",
+      "alternativaC": "Último",
+      "alternativaD": "Promoção",
       "alternativaE": "Amar",
-      "resposta": "Sentir"
+      "resposta": "Mistura"
     },
     {
       "questao": 9,
-      "pergunta": "Qual o sinonimo de casa?",
-      "alternativaA": "Aeroporto",
-      "alternativaB": "Residência",
-      "alternativaC": "Mansão",
-      "alternativaD": "Banheiro",
-      "alternativaE": "CômodoIV",
-      "resposta": "Residência"
+      "pergunta": "Em inglês, o que significa Masterpiece?",
+      "alternativaA": "Obra-prima",
+      "alternativaB": "Obra",
+      "alternativaC": "Arte",
+      "alternativaD": "Primo",
+      "alternativaE": "Cortina",
+      "resposta": "Obra-prima"
     },
     {
       "questao": 10,
-      "pergunta": "Qual é a tradução de Fell?",
-      "alternativaA": "Sentir",
-      "alternativaB": "Dizer",
-      "alternativaC": "Acontecer",
-      "alternativaD": "Coisas",
-      "alternativaE": "AmarIV",
-      "resposta": "Sentir"
+      "pergunta": "Em inglês, o que significa Heard?",
+      "alternativaA": "Teclar",
+      "alternativaB": "Ligação",
+      "alternativaC": "Fone",
+      "alternativaD": "Ouvir",
+      "alternativaE": "Ação",
+      "resposta": "Ouvir"
     },
     {
       "questao": 11,
-      "pergunta": "Qual o sinonimo de casa?",
-      "alternativaA": "Aeroporto",
-      "alternativaB": "Residência",
-      "alternativaC": "Mansão",
-      "alternativaD": "Banheiro",
-      "alternativaE": "CômodoV",
-      "resposta": "Residência"
+      "pergunta": "Em inglês, o que significa Apple?",
+      "alternativaA": "Mação",
+      "alternativaB": "Nação",
+      "alternativaC": "Maçã",
+      "alternativaD": "Macã",
+      "alternativaE": "Maca",
+      "resposta": "Maçã"
     }
   ]
 }
