@@ -109,6 +109,396 @@
       "alternativaD": "Macã",
       "alternativaE": "Maca",
       "resposta": "Maçã"
+    },
+    {
+      "questao": 12,
+      "pergunta": "Em inglês, o que significa Nearly?",
+      "alternativaA": "Quase",
+      "alternativaB": "Entretanto",
+      "alternativaC": "Maiores",
+      "alternativaD": "Porém",
+      "alternativaE": "Mas",
+      "resposta": "Quase"
+    },
+    {
+      "questao": 13,
+      "pergunta": "Em inglês, o que significa Goosebumps?",
+      "alternativaA": "Machucar",
+      "alternativaB": "Arrepiar",
+      "alternativaC": "Arrepender",
+      "alternativaD": "Cair",
+      "alternativaE": "Bomba",
+      "resposta": "Arrepiar"
+    },
+    {
+      "questao": 14,
+      "pergunta": "Em inglês, o que significa Fell?",
+      "alternativaA": "Sentir",
+      "alternativaB": "Sentimento",
+      "alternativaC": "Cair",
+      "alternativaD": "Feitiço",
+      "alternativaE": "Filho",
+      "resposta": "Cair"
+    },
+    {
+      "questao": 15,
+      "pergunta": "Em inglês, o que significa But?",
+      "alternativaA": "Nada",
+      "alternativaB": "Tudo",
+      "alternativaC": "Não",
+      "alternativaD": "Mas",
+      "alternativaE": "Saída",
+      "resposta": "Mas"
+    },
+    {
+      "questao": 16,
+      "pergunta": "Em inglês, o que significa Carried?",
+      "alternativaA": "Estrutura",
+      "alternativaB": "Enganar",
+      "alternativaC": "Carrosel",
+      "alternativaD": "Carro",
+      "alternativaE": "Carregado",
+      "resposta": "Carregado"
+    },
+    {
+      "questao": 17,
+      "pergunta": "Em inglês, o que significa Great?",
+      "alternativaA": "Grande",
+      "alternativaB": "Pequeno",
+      "alternativaC": "Merecer",
+      "alternativaD": "Ovelha",
+      "alternativaE": "Carneiro",
+      "resposta": "Grande"
+    },
+    {
+      "questao": 18,
+      "pergunta": "Em inglês, o que significa Death?",
+      "alternativaA": "Caderno",
+      "alternativaB": "Morte",
+      "alternativaC": "Noturno",
+      "alternativaD": "Desenho",
+      "alternativaE": "Caixão",
+      "resposta": "Morte"
+    },
+    {
+      "questao": 19,
+      "pergunta": "Em inglês, o que significa Fails?",
+      "alternativaA": "Formar",
+      "alternativaB": "Vencedor",
+      "alternativaC": "Vitória",
+      "alternativaD": "Falhar",
+      "alternativaE": "Ganhar",
+      "resposta": "Falhar"
+    },
+    {
+      "questao": 20,
+      "pergunta": "Em inglês, o que significa Deserves?",
+      "alternativaA": "Diversão",
+      "alternativaB": "Dever",
+      "alternativaC": "Merece",
+      "alternativaD": "Conversar",
+      "alternativaE": "Susurrar",
+      "resposta": "Merece"
+    },
+    {
+      "questao": 21,
+      "pergunta": "Em inglês, o que significa Waking?",
+      "alternativaA": "Como",
+      "alternativaB": "Fazer",
+      "alternativaC": "Atravessar",
+      "alternativaD": "Encontrar",
+      "alternativaE": "Vigília",
+      "resposta": "Vigília"
+    },
+    {
+      "questao": 22,
+      "pergunta": "Em inglês, o que significa Monday?",
+      "alternativaA": "Segunda-feira",
+      "alternativaB": "Terça-feira",
+      "alternativaC": "Sexta-feira",
+      "alternativaD": "Sábado",
+      "alternativaE": "Domingo",
+      "resposta": "Segunda-feira"
+    },
+    {
+      "questao": 23,
+      "pergunta": "Em inglês, o que significa Tuesday?",
+      "alternativaA": "Segunda-feira",
+      "alternativaB": "Terça-feira",
+      "alternativaC": "Sexta-feira",
+      "alternativaD": "Sábado",
+      "alternativaE": "Domingo",
+      "resposta": "Terça-feira"
+    },
+    {
+      "questao": 24,
+      "pergunta": "Em inglês, o que significa Friday?",
+      "alternativaA": "Segunda-feira",
+      "alternativaB": "Terça-feira",
+      "alternativaC": "Sexta-feira",
+      "alternativaD": "Sábado",
+      "alternativaE": "Domingo",
+      "resposta": "Sexta-feira"
+    },
+    {
+      "questao": 25,
+      "pergunta": "Em inglês, o que significa Saturday?",
+      "alternativaA": "Segunda-feira",
+      "alternativaB": "Terça-feira",
+      "alternativaC": "Sexta-feira",
+      "alternativaD": "Sábado",
+      "alternativaE": "Domingo",
+      "resposta": "Sábado"
+    },
+    {
+      "questao": 26,
+      "pergunta": "Em inglês, o que significa Sunday?",
+      "alternativaA": "Segunda-feira",
+      "alternativaB": "Terça-feira",
+      "alternativaC": "Sexta-feira",
+      "alternativaD": "Sábado",
+      "alternativaE": "Domingo",
+      "resposta": "Domingo"
+    },
+    {
+      "questao": 27,
+      "pergunta": "Em inglês, o que significa Should?",
+      "alternativaA": "Deveria",
+      "alternativaB": "Pagamento",
+      "alternativaC": "Dívida",
+      "alternativaD": "Soltar",
+      "alternativaE": "Acreditar",
+      "resposta": "Deveria"
+    },
+    {
+      "questao": 28,
+      "pergunta": "Em inglês, o que significa Awesome?",
+      "alternativaA": "Saber",
+      "alternativaB": "Incrível",
+      "alternativaC": "Estudar",
+      "alternativaD": "Música",
+      "alternativaE": "Direito",
+      "resposta": "Incrível"
+    },
+    {
+      "questao": 29,
+      "pergunta": "Em inglês, o que significa Smashed?",
+      "alternativaA": "Magoado",
+      "alternativaB": "Empresa",
+      "alternativaC": "Esmagado",
+      "alternativaD": "Grande",
+      "alternativaE": "Eu",
+      "resposta": "Esmagado"
+    },
+    {
+      "questao": 30,
+      "pergunta": "Em inglês, o que significa Business?",
+      "alternativaA": "Conhecer",
+      "alternativaB": "Buzina",
+      "alternativaC": "Compras",
+      "alternativaD": "Negócio",
+      "alternativaE": "Biz",
+      "resposta": "Negócio"
+    },
+    {
+      "questao": 31,
+      "pergunta": "Em inglês, o que significa Powerful?",
+      "alternativaA": "Bateria",
+      "alternativaB": "Ponderoso",
+      "alternativaC": "Generoso",
+      "alternativaD": "Merecedor",
+      "alternativaE": "Poderoso",
+      "resposta": "Poderoso"
+    },
+    {
+      "questao": 32,
+      "pergunta": "Em inglês, o que significa Made?",
+      "alternativaA": "Feito",
+      "alternativaB": "Início",
+      "alternativaC": "Levar",
+      "alternativaD": "Mãe",
+      "alternativaE": "Madeira",
+      "resposta": "Feito"
+    },
+    {
+      "questao": 33,
+      "pergunta": "Em inglês, o que significa Take?",
+      "alternativaA": "Cobra",
+      "alternativaB": "Levar",
+      "alternativaC": "Copo",
+      "alternativaD": "Tentar",
+      "alternativaE": "Fazer",
+      "resposta": "Levar"
+    },
+    {
+      "questao": 34,
+      "pergunta": "Em inglês, o que significa Another?",
+      "alternativaA": "Anotar",
+      "alternativaB": "Reciclar",
+      "alternativaC": "Outro",
+      "alternativaD": "Jogar",
+      "alternativaE": "Avó",
+      "resposta": "Outro"
+    },
+    {
+      "questao": 35,
+      "pergunta": "Em inglês, o que significa Track?",
+      "alternativaA": "Tecido",
+      "alternativaB": "Animal",
+      "alternativaC": "Torcer",
+      "alternativaD": "Faixa",
+      "alternativaE": "Lixo",
+      "resposta": "Faixa"
+    },
+    {
+      "questao": 36,
+      "pergunta": "Em inglês, o que significa Church?",
+      "alternativaA": "Canibal",
+      "alternativaB": "Chuva",
+      "alternativaC": "Chocolate",
+      "alternativaD": "Tela",
+      "alternativaE": "Igreja",
+      "resposta": "Igreja"
+    },
+    {
+      "questao": 37,
+      "pergunta": "Em inglês, o que significa Everybody?",
+      "alternativaA": "Todos",
+      "alternativaB": "Melhor",
+      "alternativaC": "Sempre",
+      "alternativaD": "Talvez",
+      "alternativaE": "Outra",
+      "resposta": "Todos"
+    },
+    {
+      "questao": 38,
+      "pergunta": "Em inglês, o que significa Sick?",
+      "alternativaA": "Cidade",
+      "alternativaB": "Doente",
+      "alternativaC": "Sentir",
+      "alternativaD": "Palavra",
+      "alternativaE": "Visita",
+      "resposta": "Doente"
+    },
+    {
+      "questao": 39,
+      "pergunta": "Em inglês, o que significa Offer?",
+      "alternativaA": "Cair",
+      "alternativaB": "Falir",
+      "alternativaC": "Oferecer",
+      "alternativaD": "Perder",
+      "alternativaE": "Prazer",
+      "resposta": "Oferecer"
+    },
+    {
+      "questao": 40,
+      "pergunta": "Em inglês, o que significa Shrine?",
+      "alternativaA": "Realizar",
+      "alternativaB": "Dança",
+      "alternativaC": "Dançarina",
+      "alternativaD": "Templo",
+      "alternativaE": "Tempestade",
+      "resposta": "Templo"
+    },
+    {
+      "questao": 41,
+      "pergunta": "Em inglês, o que significa Plenty?",
+      "alternativaA": "Plata",
+      "alternativaB": "Plantação",
+      "alternativaC": "Pintar",
+      "alternativaD": "Pontuação",
+      "alternativaE": "Abûndante",
+      "resposta": "Abûndante"
+    },
+    {
+      "questao": 42,
+      "pergunta": "Em inglês, o que significa Still?",
+      "alternativaA": "Ainda",
+      "alternativaB": "Situar",
+      "alternativaC": "Tremer",
+      "alternativaD": "Arrepiar",
+      "alternativaE": "Vestido",
+      "resposta": "Ainda"
+    },
+    {
+      "questao": 43,
+      "pergunta": "Em inglês, o que significa Dresse?",
+      "alternativaA": "Estresse",
+      "alternativaB": "Vestido",
+      "alternativaC": "Diversos",
+      "alternativaD": "Peças",
+      "alternativaE": "Dormir",
+      "resposta": "Vestido"
+    },
+    {
+      "questao": 44,
+      "pergunta": "Em inglês, o que significa Wardrobe?",
+      "alternativaA": "Remédio",
+      "alternativaB": "Direção",
+      "alternativaC": "Guarda-roupa",
+      "alternativaD": "Usufruir",
+      "alternativaE": "Guerra",
+      "resposta": "Guarda-roupa"
+    },
+    {
+      "questao": 45,
+      "pergunta": "Em inglês, o que significa Really?",
+      "alternativaA": "Resgatar",
+      "alternativaB": "Reinar",
+      "alternativaC": "Real",
+      "alternativaD": "Realmente",
+      "alternativaE": "Realizar",
+      "resposta": "Realmente"
+    },
+    {
+      "questao": 46,
+      "pergunta": "Em inglês, o que significa Hand?",
+      "alternativaA": "Suíte",
+      "alternativaB": "Abertura",
+      "alternativaC": "Chão",
+      "alternativaD": "Show",
+      "alternativaE": "Mão",
+      "resposta": "Mão"
+    },
+    {
+      "questao": 47,
+      "pergunta": "Em inglês, o que significa Inside?",
+      "alternativaA": "Detro",
+      "alternativaB": "Drento",
+      "alternativaC": "Dentro",
+      "alternativaD": "Dento",
+      "alternativaE": "Dreto",
+      "resposta": "Dentro"
+    },
+    {
+      "questao": 48,
+      "pergunta": "Em inglês, o que significa Mind?",
+      "alternativaA": "Cabeça",
+      "alternativaB": "Espaço",
+      "alternativaC": "Saturno",
+      "alternativaD": "Mentira",
+      "alternativaE": "Trocar",
+      "resposta": "Cabeça"
+    },
+    {
+      "questao": 49,
+      "pergunta": "Em inglês, o que significa Crazy?",
+      "alternativaA": "Doce",
+      "alternativaB": "Louco",
+      "alternativaC": "Uva",
+      "alternativaD": "Amargo",
+      "alternativaE": "Piso",
+      "resposta": "Louco"
+    },
+    {
+      "questao": 50,
+      "pergunta": "Em inglês, o que significa Stuck?",
+      "alternativaA": "Amarrar",
+      "alternativaB": "Separar",
+      "alternativaC": "Fiação",
+      "alternativaD": "Preso",
+      "alternativaE": "Laço",
+      "resposta": "Preso"
     }
   ]
 }
